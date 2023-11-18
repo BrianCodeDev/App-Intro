@@ -1,0 +1,160 @@
+    /* Optional: Add custom styles here */
+
+    body {
+        padding-top: 56px; /* Adjusted for the fixed navbar */
+      }
+  
+      @media (min-width: 768px) {
+        body {
+          padding-top: 0; /* Reset padding for larger screens */
+        }
+      }
+      .navbar {
+        background-color: #1C2A3A;
+      }
+      .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        color: white;
+      }
+      .navbar .navbar-text button {
+        background-color: #88B7A4;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+      }
+      .background-header {
+        background-image: url("img/Header\ BG.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 120vh;
+      }
+      .header-content h2 {
+        color: white;
+        font-size: 60px;
+        width: 580px;
+        padding-top: 100px;
+        font-weight: 800;
+      }
+      .header-content .color-light-green {
+        color: #88B7A4;
+      }
+      .header-content img {
+        margin-left: 150px;
+      }
+      .header-content p {
+        color: white;
+        font-size: 30px;
+      }
+      .header-content .download-button {
+        background-color: #88B7A4;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 25px;
+        border: none;
+        margin-top: 10px;
+        font-weight: bold;
+
+      }
+      .features-section h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+      }
+      .features-section .card {
+        text-align: center !important;
+        margin-top: 100px;
+        height: 300px;
+        margin-left: 110px;
+        margin-right: 110px;
+        border: none;
+
+      }
+      .features-section .card img {
+       width: 80px !important;
+       margin-left: 100px;
+       margin-top: 20px;
+      }
+      .features-section .card .card-title {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .section-three {
+        background-image: url("img/Section-2.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 680px;
+        background-color: #1C2A3A;
+        margin-top: 100px;
+        padding-top: 80px;
+      }
+      .section-three h2 {
+        color: white;
+        font-size: 70px;
+        font-weight: 800;
+      }
+      .section-three p {
+        color: rgb(183, 183, 183);
+        font-size: 40px;
+      }
+      .access-section {
+        background-color: #88B7A4;
+        height: 340px;
+        margin-top: 180px;
+        padding-top: 50px;
+        position:relative;
+        
+      }
+      .access-section h2 {
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: 800;
+      }
+      .access-section p {
+        font-size: 30px;
+        width: 70%;
+      }
+      .access-section img {
+        position: absolute;
+        bottom: -100px; /* Adjust this value as needed */
+          }
+      .section-four {
+        margin-top: 300px;
+      }
+      .section-four h2 {
+        font-size: 40px;
+        font-weight: 800;
+      }
+      .section-four p {
+        font-size: 30px;
+      }
+      .section-four a {
+        color: #5E8E84;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .extra-features {
+        background-image: url("img/Section-5.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        height: 400px;
+        margin-top: 100px;
+        padding-top: 140px;
+      }
+      .extra-features h2 {
+        font-weight: 800;
+        font-size: 50px;
+      }
+      .book-appointment h2 {
+        text-align: center;
+        font-weight: 800;
+        padding-top: 100px;
+      }
